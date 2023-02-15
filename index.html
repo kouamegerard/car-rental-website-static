@@ -1,0 +1,1120 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Preview</title>
+
+    <!-- Link Css style -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- Script -->
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    
+    <div class="w-full relative bg-white">
+
+      <!-- NavBar -->
+      <div class="w-11/12 m-auto absolute left-0 top-0 p-6 right-0 overflow-hidden bg-transparent z-10" id="navbar-rent__car">
+        <div class="flex justify-between items-center self-baseline">
+          <div class="text-2xl font-semibold text-left text-white">
+            Geneses 0.0
+          </div>
+          <div class="menu-items-rent__car w-1/2 h-full">
+            <div class="w-full">
+
+              <!-- Navbar -->
+              <ul class="flex justify-center gap-6 items-center">
+                <li><span><a href="" class="text-base font-semibold text-left text-bg-yellow-900">Home</a></span></li>
+                <li><span><a href="" class="opacity-90 text-base font-medium text-center text-white">How it work</a></span></li>
+                <li><span><a href="" class="opacity-90 text-base font-medium text-center text-white">Rental Detals</a></span></li>
+                <li><span><a href="" class="opacity-90 text-base font-medium text-center text-white">About us</a></span></li>
+                <li>
+                  <svg width="2" height="22" viewBox="0 0 2 22" fill="none" xmlns="http://www.w3.org/2000/svg" class="opacity-80" preserveAspectRatio="xMidYMid meet">
+                    <line opacity="0.8" x1="0.746094" y1="0.5" x2="0.746093" y2="21.5" stroke="white"></line>
+                  </svg>
+                </li>
+                <li><span><a href="" class="opacity-90 text-base font-medium text-center text-white underline">Register</a></span></li>
+                <li>
+                  <a class="py-2 px-5 block self-baseline text-sm font-medium text-center text-white rounded bg-yellow-900">
+                    Log In
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- /navbar -->
+
+      <!-- Hero Banner -->
+      <div class="w-full relative h-[833px] bg-black">
+
+        <div class="w-full h-full relative z-10 px-28 pt-22">
+          <div class="w-full h-full z-10 flex flex-col items-start justify-center">
+            <div class="w-[350.56px]">
+              <span class="w-full text-sm font-medium text-left text-white">
+                100% Trusted Car rentel platform in the Bangladesh
+              </span>
+            </div>
+
+            <div class="w-[574.66px] h-auto my-6">
+              <h1 class="w-[574.66px] text-[46px] font-bold text-left uppercase text-white">
+                Fast And Easy Way To Rent A Car
+              </h1>
+              <span class="w-[300px] opacity-60 text-base font-medium text-left text-white">
+                Our Car Rental online booking system designed to meet the specific needs of car rental
+                business owners. This easy-to-use car rental software will let you manage.
+              </span>
+            </div>
+            <div class="flex justify-start items-center gap-10 my-6">
+              <a class="block flex-grow-0 flex-shrink-0 py-2 px-8 font-semibold text-center text-white bg-yellow-900 text-sm rounded">
+                Booking Now
+              </a>
+              <p class="underline text-sm font-semibold text-center text-white">
+                See all cars
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="w-[980px] h-[742px] absolute right-[0] top-[115px] rounded-tl-[10px] bg-[url('assets/images/image-hero.jpeg')] bg-cover bg-no-repeat bg-center"></div>
+        
+      </div>
+      <!-- /hero-banner -->
+
+      <!-- Searchable section -->
+      <div class="relative bg-white w-full">
+
+        <div class="w-3/4 p-8 m-auto top-n-64 relative bg-zinc-900 rounded-2xl">
+          <form>
+            <div class="flex justify-center items-stretch gap-4">
+              <!-- Pick Up -->
+              <div class="pick-up w-1/2 h-full">
+                <div class="flex justify-start items-center gap-2 text-white">
+                  <span>
+                    <svg width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg" class="flex-grow-0 flex-shrink-0" preserveAspectRatio="xMidYMid meet">
+                      <circle cx="4" cy="4" r="4" fill="white"></circle>
+                    </svg>
+                  </span>
+                  <h4>Pick Up</h4>
+                </div>
+                <div class="pick-up-information flex gap-4  justify-start items-center">
+
+                  <div class="location w-1/3">
+                    <label for="location" class="text-white">Location</label>
+                    <div class="input-controller">
+                      <select name="location" id="location" class="input-control w-full h-9 m-0 py-1.5 p-3 rounded">
+                        <option value="" disabled selected>Select your city</option>
+                        <option value="Dakar">Dakar</option>
+                        <option value="Mbour">Mbour</option>
+                        <option value="Thiès">Thiès</option>
+                        <option value="Pikine">Pikine</option>
+                        <option value="Sally">Sally</option>
+                        <option value="Sandaga">Sandaga</option>
+                      </select>
+                    </div>
+                  </div>
+                  
+                  <div class="date-pick-up w-1/3">
+                    <label for="date-pick-up" class="text-white">Date</label>
+                    <div class="input-controller">
+                      <input type="date" name="date-pick-up" id="date-pick-up" class="input-control w-full py-1.5 p-3 rounded" />
+                    </div>
+                  </div>
+                  
+                  <div class="time-pick-up w-1/3">
+                    <label for="time-pick-up" class="text-white">Time</label>
+                    <div class="input-controller">
+                      <input type="time" name="time-pick-up" id="time-pick-up" class="input-control w-full py-1.5 p-3 rounded" />
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+              <!-- /pick-up -->
+              <div class="divider-p w-px bg-white"></div>
+              <!-- Drop Off -->
+              <div class="drop-off w-1/2 h-full">
+                <div class="flex justify-start items-center gap-2 text-white">
+                  <span>
+                    <svg width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg" class="flex-grow-0 flex-shrink-0" preserveAspectRatio="xMidYMid meet">
+                      <circle cx="4" cy="4" r="4" fill="white"></circle>
+                    </svg>
+                  </span>
+                  <h4>Drop Off</h4>
+                </div>
+                <div class="pick-up-information flex gap-4  justify-start items-center">
+
+                  <div class="location w-1/3">
+                    <label for="location" class="text-white">Location</label>
+                    <div class="input-controller">
+                      <select name="location" id="location" class="input-control w-full h-9 m-0 py-1.5 p-3 rounded">
+                        <option value="" disabled selected>Select your city</option>
+                        <option value="Dakar">Dakar</option>
+                        <option value="Mbour">Mbour</option>
+                        <option value="Thiès">Thiès</option>
+                        <option value="Pikine">Pikine</option>
+                        <option value="Sally">Sally</option>
+                        <option value="Sandaga">Sandaga</option>
+                      </select>
+                    </div>
+                  </div>
+                  
+                  <div class="date-pick-up w-1/3">
+                    <label for="date-pick-up" class="text-white">Date</label>
+                    <div class="input-controller">
+                      <input type="date" name="date-pick-up" id="date-pick-up" class="input-control w-full py-1.5 p-3 rounded" />
+                    </div>
+                  </div>
+                  
+                  <div class="time-pick-up w-1/3">
+                    <label for="time-pick-up" class="text-white">Time</label>
+                    <div class="input-controller">
+                      <input type="time" name="time-pick-up" id="time-pick-up" class="input-control w-full py-1.5 p-3 rounded" />
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+              <!-- /drop-off -->
+
+              <!-- Submit request -->
+              <div class="submit-request relative h-full self-center pt-12">
+                <button class="text-sm border-solid text-white bg-yellow-900 py-2 px-6 rounded-3xl self-auto">Search</button>
+              </div>
+            </div>
+          </form>
+        </div>
+        
+      </div>
+
+      <!-- How it work Content -->
+      <div class="how-work-it-content w-full h-auto relative overflow-hidden py-32">
+        <div class="w-3/4 h-full m-auto">
+          <!-- Heading -->
+          <div class="w-full h-[171px] text-center flex flex-col justify-center items-center mb-24">
+            <p class="text-5xl font-medium text-center text-black mb-8">
+              How it work
+            </p>
+            <p class="w-1/3 text-lg text-center text-[#1a202c]">
+              <span class="w-[529.48px] text-lg text-center text-[#1a202c]"
+                >A high-performing web-based car rental system for any rent-a-car company and
+                website</span
+              >
+            </p>
+          </div>
+
+          <div class="w-full h-[250.75px] flex justify-center items-center gap-8">
+
+            <!-- Booking -->
+            <div class="w-[276.48px] h-[250.75px]">
+              <div class="svg-track mb-4">
+                <svg
+                  width="107" height="107" viewBox="0 0 107 107" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-[106px] h-[106px]" preserveAspectRatio="none">
+                  <rect x="0.241699" y="0.464844" width="106" height="106" rx="30" fill="black"></rect>
+                  <g clip-path="url(#clip0_1_244)">
+                    <path
+                      fill-rule="evenodd"     clip-rule="evenodd"     d="M37.1442 39.7295C37.7108 38.3514 38.6532 37.1771 39.8542 36.3523C41.0553 35.5275 42.4622 35.0885 43.9004 35.0898H62.5888C65.5263 35.0898 68.1818 36.9151 69.3392 39.7295L71.6657 45.389C71.886 45.925 72.2826 46.366 72.7819 46.6263C74.2507 47.3919 75.2935 48.816 75.6166 50.4912L76.6007 55.6331C76.6976 56.1262 76.7446 56.6284 76.7446 57.1337V58.3985C76.7446 60.8914 75.599 63.124 73.8071 64.5143V70.3086C73.8071 70.7147 73.6524 71.1042 73.3769 71.3914C73.1015 71.6785 72.7279 71.8398 72.3384 71.8398H66.4634C66.0738 71.8398 65.7003 71.6785 65.4248 71.3914C65.1494 71.1042 64.9946 70.7147 64.9946 70.3086V66.211C61.1994 66.358 56.9312 66.4805 53.2446 66.4805C49.5581 66.4805 45.2899 66.358 41.4946 66.211V70.3086C41.4946 70.7147 41.3399 71.1042 41.0644 71.3914C40.789 71.6785 40.4154 71.8398 40.0259 71.8398H34.1509C33.7613 71.8398 33.3878 71.6785 33.1123 71.3914C32.8369 71.1042 32.6821 70.7147 32.6821 70.3086V64.5143C30.8903 63.124 29.7446 60.8914 29.7446 58.3985V57.1337C29.7451 56.6298 29.7933 56.1271 29.8886 55.6331L30.8726 50.4881C31.1958 48.816 32.2386 47.3888 33.7044 46.6263C34.2061 46.3649 34.6026 45.9265 34.8236 45.389L37.1501 39.7295H37.1442ZM38.5542 59.5898C39.3333 59.5898 40.0804 59.2672 40.6313 58.6929C41.1822 58.1185 41.4917 57.3396 41.4917 56.5273C41.4917 55.7151 41.1822 54.9362 40.6313 54.3618C40.0804 53.7875 39.3333 53.4648 38.5542 53.4648C37.7751 53.4648 37.028 53.7875 36.4771 54.3618C35.9262 54.9362 35.6167 55.7151 35.6167 56.5273C35.6167 57.3396 35.9262 58.1185 36.4771 58.6929C37.028 59.2672 37.7751 59.5898 38.5542 59.5898V59.5898ZM67.9292 59.5898C68.7083 59.5898 69.4554 59.2672 70.0063 58.6929C70.5572 58.1185 70.8667 57.3396 70.8667 56.5273C70.8667 55.7151 70.5572 54.9362 70.0063 54.3618C69.4554 53.7875 68.7083 53.4648 67.9292 53.4648C67.1501 53.4648 66.403 53.7875 65.8521 54.3618C65.3012 54.9362 64.9917 55.7151 64.9917 56.5273C64.9917 57.3396 65.3012 58.1185 65.8521 58.6929C66.403 59.2672 67.1501 59.5898 67.9292 59.5898V59.5898ZM47.3667 53.4648C46.5876 53.4648 45.8405 53.7875 45.2896 54.3618C44.7387 54.9362 44.4292 55.7151 44.4292 56.5273C44.4292 57.3396 44.7387 58.1185 45.2896 58.6929C45.8405 59.2672 46.5876 59.5898 47.3667 59.5898H59.1167C59.8958 59.5898 60.6429 59.2672 61.1938 58.6929C61.7447 58.1185 62.0542 57.3396 62.0542 56.5273C62.0542 55.7151 61.7447 54.9362 61.1938 54.3618C60.6429 53.7875 59.8958 53.4648 59.1167 53.4648H47.3667ZM38.2781 44.8562L41.0863 38.9976C41.2084 38.7436 41.3959 38.53 41.6278 38.3807C41.8597 38.2314 42.1268 38.1524 42.3994 38.1523H64.084C64.3565 38.1524 64.6237 38.2314 64.8556 38.3807C65.0875 38.53 65.275 38.7436 65.3971 38.9976L68.2053 44.8562C68.3201 45.1032 68.3705 45.3773 68.3513 45.6511C68.3321 45.9249 68.2441 46.1885 68.0961 46.4155C67.948 46.6425 67.7453 46.8248 67.5081 46.9441C67.271 47.0633 67.0079 47.1153 66.7454 47.0948C64.0723 46.8713 56.9048 46.5742 53.2417 46.5742C49.5786 46.5742 42.4082 46.8713 39.738 47.0948C39.4755 47.1153 39.2124 47.0633 38.9753 46.9441C38.7381 46.8248 38.5353 46.6425 38.3873 46.4155C38.2393 46.1885 38.1512 45.9249 38.1321 45.6511C38.1129 45.3773 38.1632 45.1032 38.2781 44.8562V44.8562Z"     fill="white"   ></path>
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_1_244">
+                      <rect
+                        width="47"       height="49"       fill="white"       transform="translate(29.7417 28.9648)"     ></rect>
+                    </clipPath>
+                  </defs>
+                </svg>
+              </div>
+              <div class="w-[276.48px] h-[115.6px]">
+                <h4 class="text-2xl font-semibold text-left text-[#1a202c] mb-1">
+                  Book your car
+                </h4>
+                <p class="w-[276.48px] h-[62px] text-sm text-left text-[#1a202c]">
+                  Aliquam erat volutpat. Integer malesuada turpis id fringilla suscipit. Maecenas
+                  ultrices, orci vitae convallis mattis.
+                </p>
+              </div>
+            </div>
+            
+            <svg
+              width="356"
+              height="86"
+              viewBox="0 0 356 86"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              preserveAspectRatio="none"
+              >
+              <path
+                d="M354.762 6.40637C355.035 6.44557 355.289 6.25576 355.328 5.98241C355.367 5.70907 355.177 5.4557 354.904 5.41649L354.762 6.40637ZM0.1535 80.8734C42.2229 88.2405 72.144 85.3534 96.6946 77.3322C121.228 69.3166 140.371 56.1793 160.847 43.133C181.333 30.081 203.189 17.0933 233.223 9.26705C263.258 1.44071 301.504 -1.23176 354.762 6.40637L354.904 5.41649C301.545 -2.2361 263.161 0.432499 232.971 8.29936C202.78 16.1663 180.817 29.2239 160.31 42.2897C139.794 55.3613 120.77 68.4142 96.384 76.3817C72.0148 84.3436 42.2628 87.2323 0.325993 79.8884L0.1535 80.8734Z"
+                fill="#1A202C"
+              ></path>
+            </svg>
+
+            <!-- Pick Date -->
+            <div class="w-[276.48px] h-[250.75px]">
+              <div class="svg-track mb-4">
+
+                <svg
+                  width="107" height="107" viewBox="0 0 107 107" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-[106px] h-[106px]" preserveAspectRatio="none">
+                  <rect x="0.241699" y="0.464844" width="106" height="106" rx="30" fill="black"></rect>
+                  <g clip-path="url(#clip0_1_236)">
+                    <path
+                      d="M75.7417 73.7048C75.7417 74.6783 74.9373 75.4648 73.9417 75.4648H32.5417C31.5461 75.4648 30.7417 74.6783 30.7417 73.7048V50.6048H75.7417V73.7048ZM32.5417 35.4248H41.9917V31.9048C41.9917 31.6628 42.1942 31.4648 42.4417 31.4648H45.5917C45.8392 31.4648 46.0417 31.6628 46.0417 31.9048V35.4248H60.4417V31.9048C60.4417 31.6628 60.6442 31.4648 60.8917 31.4648H64.0417C64.2892 31.4648 64.4917 31.6628 64.4917 31.9048V35.4248H73.9417C74.9373 35.4248 75.7417 36.2113 75.7417 37.1848V46.8648H30.7417V37.1848C30.7417 36.2113 31.5461 35.4248 32.5417 35.4248Z"     fill="white"   ></path>
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_1_236">
+                      <rect
+                        width="45"       height="44"       fill="white"       transform="matrix(-1 0 0 1 75.7417 31.4648)"     ></rect>
+                    </clipPath>
+                  </defs>
+                </svg>
+              </div>
+              <div class="w-[276.48px] h-[115.6px]">
+                <h4 class="text-2xl font-semibold text-left text-[#1a202c] mb-1">
+                  Pick-up Date
+                </h4>
+                <p class="w-[276.48px] h-[62px] text-sm text-left text-[#1a202c]">
+                  Aliquam erat volutpat. Integer malesuada turpis id fringilla suscipit. Maecenas
+                  ultrices, orci vitae convallis mattis.
+                </p>
+              </div>
+            </div>
+
+            <svg
+              width="356"
+              height="86"
+              viewBox="0 0 356 86"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              preserveAspectRatio="none"
+              >
+              <path
+                d="M354.762 6.40637C355.035 6.44557 355.289 6.25576 355.328 5.98241C355.367 5.70907 355.177 5.4557 354.904 5.41649L354.762 6.40637ZM0.1535 80.8734C42.2229 88.2405 72.144 85.3534 96.6946 77.3322C121.228 69.3166 140.371 56.1793 160.847 43.133C181.333 30.081 203.189 17.0933 233.223 9.26705C263.258 1.44071 301.504 -1.23176 354.762 6.40637L354.904 5.41649C301.545 -2.2361 263.161 0.432499 232.971 8.29936C202.78 16.1663 180.817 29.2239 160.31 42.2897C139.794 55.3613 120.77 68.4142 96.384 76.3817C72.0148 84.3436 42.2628 87.2323 0.325993 79.8884L0.1535 80.8734Z"
+                fill="#1A202C"
+              ></path>
+            </svg>
+
+            <!-- Choose Your location -->
+            <div class="w-[276.48px] h-[250.75px]">
+              <div class="svg-track mb-4">
+                <svg
+                  width="80" height="80" viewBox="0 0 107 107" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-[106px] h-[106px]" preserveAspectRatio="none">
+                  <rect x="0.241699" y="0.465271" width="106" height="106" rx="30" fill="black"></rect>
+                  <path
+                    d="M52.5231 78.13C49.0004 75.3096 45.7352 72.2177 42.7616 68.8865C38.2991 63.8838 33 56.4335 33 49.3339C32.9981 45.7082 34.1421 42.1633 36.2874 39.1481C38.4327 36.1328 41.4827 33.7827 45.0515 32.3951C48.6204 31.0075 52.5475 30.6448 56.3361 31.3529C60.1246 32.061 63.6041 33.8081 66.3344 36.3731C68.1521 38.0717 69.5929 40.0918 70.5734 42.3165C71.5538 44.5413 72.0544 46.9264 72.0463 49.3339C72.0463 56.4335 66.7471 63.8838 62.2847 68.8865C59.3111 72.2177 56.0458 75.3096 52.5231 78.13ZM52.5231 41.4805C50.3041 41.4805 48.1759 42.3079 46.6067 43.7807C45.0376 45.2535 44.1561 47.2511 44.1561 49.3339C44.1561 51.4168 45.0376 53.4144 46.6067 54.8872C48.1759 56.36 50.3041 57.1874 52.5231 57.1874C54.7422 57.1874 56.8704 56.36 58.4396 54.8872C60.0087 53.4144 60.8902 51.4168 60.8902 49.3339C60.8902 47.2511 60.0087 45.2535 58.4396 43.7807C56.8704 42.3079 54.7422 41.4805 52.5231 41.4805Z"   fill="white" ></path>
+                </svg>
+              </div>
+              <div class="w-[276.48px] h-[115.6px]">
+                <h4 class="text-2xl font-semibold text-left text-[#1a202c] mb-1">
+                  Choose Location
+                </h4>
+                <p class="w-[276.48px] h-[62px] text-sm text-left text-[#1a202c]">
+                  Aliquam erat volutpat. Integer malesuada turpis id fringilla suscipit. Maecenas
+                  ultrices, orci vitae convallis mattis.
+                </p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <!-- /how-it-work -->
+
+      <!-- Product Content -->
+      <div class="w-full h-auto relative overflow-hidden bg-[#f3f3f3] py-32">
+        <div class="m-auto w-3/4">
+          <div class="w-full mb-10 flex flex-col items-center mb-12">
+            <h2 class="text-5xl font-medium text-center text-black">
+              Most popular car rental deals
+            </h2>
+            <span class="w-[400px] h-[67.42px] text-lg text-center text-[#1a202c]">
+              A high-performing web-based car rental system for any rent-a-car company and
+                website
+            </span>
+          </div>
+
+          <div class="relative w-full h-full">
+            
+            <div class="w-full h-[54.99px] relative mb-10">
+
+              <div class="flex justify-start gap-32">
+                <div class="h-[33px]">
+                  <span class="text-xl font-semibold text-left text-[#1a202c]">
+                    Popular
+                  </span>
+                </div>
+                <div class="h-[33px]">
+                  <span class="text-xl opacity-60  font-medium text-center text-[#1a202c]"> Large Car </span>
+                </div>
+                <div class="h-[33px] relative">
+                  <span class="text-xl opacity-60 font-medium text-center text-[#1a202c]">Small car</span>
+                </div>
+                <div class="h-[33px] relative">
+                  <span class="text-xl opacity-60 font-medium text-center text-[#1a202c]">
+                    Expensive Car
+                  </span>
+                </div>
+              </div>
+              
+              <div class="relative">
+                <svg
+                  width="180" height="5" viewBox="0 0 180 5" fill="none" xmlns="http://www.w3.org/2000/svg" class="absolute left-[-2.48px] top-[0]" preserveAspectRatio="xMidYMid meet">
+                  <line
+                    x1="-1.74846e-7"   y1="2.42111"   x2="304"   y2="2.42109"   stroke="#1A202C"   stroke-width="4">
+                  </line>
+                </svg>
+                <svg
+                  width="1312" height="2" viewBox="0 0 1312 2" fill="none" xmlns="http://www.w3.org/2000/svg" class="relative" preserveAspectRatio="xMidYMid meet">
+                  <line x1="-4.37114e-8" y1="0.921112" x2="1312" y2="0.920997" stroke="#90A3BF"></line>
+                </svg>
+              </div>
+            </div>
+
+            <div class="relative mb-10">
+              <div class="flex justify-center items-center flex-wrap w-full gap-5">
+                <!-- Collection Car 1 -->
+                <div class="flex flex-col justify-start items-start flex-grow-0 flex-shrink-0 relative gap-8">
+                  <!-- Car Collection -->
+                  <div class="flex-grow-0 flex-shrink-0 w-[304px] h-[388px] relative overflow-hidden rounded-[10px] bg-[#c4c4c4]">
+                    <img class="w-full h-full object-cover absolute left-[-1.48px] top-[-1.09px]" src="assets/images/car.png" />
+                    <div class="flex flex-col justify-start items-start absolute left-6 top-6 gap-1">
+                      <p class="flex-grow-0 flex-shrink-0 w-32 h-6 text-xl font-bold text-left text-white">
+                        Car 1
+                      </p>
+                    </div>
+                    <svg
+                      width="24"     height="24"     viewBox="0 0 24 24"     fill="none"     xmlns="http://www.w3.org/2000/svg"     class="w-6 h-6 absolute left-64 top-6"     preserveAspectRatio="none">
+                      <path
+                        d="M12.62 20.81C12.28 20.93 11.72 20.93 11.38 20.81C8.48 19.82 2 15.69 2 8.68998C2 5.59998 4.49 3.09998 7.56 3.09998C9.38 3.09998 10.99 3.97998 12 5.33998C13.01 3.97998 14.63 3.09998 16.44 3.09998C19.51 3.09998 22 5.59998 22 8.68998C22 15.69 15.52 19.82 12.62 20.81Z"       stroke="#AC1D1D"       stroke-width="1.5"       stroke-linecap="round"       stroke-linejoin="round"     ></path>
+                    </svg>
+                    <div class="flex flex-col justify-start items-start absolute left-6 top-[330px] gap-1">
+                      <p class="flex-grow-0 flex-shrink-0 w-32 h-6 font-bold text-left text-white">
+                        <span class="flex-grow-0 flex-shrink-0 w-32 h-6 text-xl font-bold text-left text-white">$72.00/ </span>
+                        <span class="flex-grow-0 flex-shrink-0 w-32 h-6 text-sm font-bold text-left text-white">day</span>
+                      </p>
+                    </div>
+                    <div class="flex justify-center items-center w-[116px] h-11 absolute left-[164px] top-80 gap-2 px-5 rounded bg-yellow-900">
+                      <a href="#" class="flex-grow-0 flex-shrink-0 w-[76px] h-6 text-base font-semibold text-center text-white">
+                        Rent Now
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Collection Car 2 -->
+                <div class="flex flex-col justify-start items-start flex-grow-0 flex-shrink-0 relative gap-8">
+                  <div class="flex-grow-0 flex-shrink-0 w-[304px] h-[388px] relative overflow-hidden rounded-[10px] bg-[#c4c4c4]" >
+                    <img src="assets/images/car-5.jpeg" class="w-[304px] h-[388px] absolute left-[-1.48px] top-[-1.09px] object-cover"/>
+                    
+                    <div class="flex flex-col justify-start items-start absolute left-6 top-6 gap-1">
+                      <p class="flex-grow-0 flex-shrink-0 text-xl font-bold text-left text-white">
+                        Car 2
+                      </p>
+                    </div>
+                    <svg
+                      width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 absolute left-64 top-6" preserveAspectRatio="none">
+                      <path
+                        d="M12.62 20.81C12.28 20.93 11.72 20.93 11.38 20.81C8.48 19.82 2 15.69 2 8.68998C2 5.59998 4.49 3.09998 7.56 3.09998C9.38 3.09998 10.99 3.97998 12 5.33998C13.01 3.97998 14.63 3.09998 16.44 3.09998C19.51 3.09998 22 5.59998 22 8.68998C22 15.69 15.52 19.82 12.62 20.81Z"       stroke="#1A202C"       stroke-width="1.5"       stroke-linecap="round"       stroke-linejoin="round"     ></path>
+                    </svg>
+                    <div class="flex flex-col justify-start items-start absolute left-6 top-[330px] gap-1">
+                      <p class="flex-grow-0 flex-shrink-0 w-32 h-6 font-bold text-left text-white">
+                        <span class="flex-grow-0 flex-shrink-0 w-32 h-6 text-xl font-bold text-left text-white">$72.00/ </span>
+                        <span class="flex-grow-0 flex-shrink-0 w-32 h-6 text-sm font-bold text-left text-white">day</span>
+                      </p>
+                    </div>
+                    <div class="flex justify-center items-center w-[116px] h-11 absolute left-[164px] top-80 gap-2 px-5 rounded bg-yellow-900">
+                      <a href="#" class="flex-grow-0 flex-shrink-0 w-[76px] h-6 text-base font-semibold text-center text-white">
+                        Rent Now
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Collection Car 3 -->
+                <div class="flex flex-col justify-start items-start flex-grow-0 flex-shrink-0 relative gap-8">
+                  <!-- Car Collection -->
+                  <div class="flex-grow-0 flex-shrink-0 w-[304px] h-[388px] relative overflow-hidden rounded-[10px] bg-[#c4c4c4]">
+                    <img class="w-full h-full object-cover absolute left-[-1.48px] top-[-1.09px]" src="assets/images/car-5.jpeg" />
+                    <div class="flex flex-col justify-start items-start absolute left-6 top-6 gap-1">
+                      <p class="flex-grow-0 flex-shrink-0 w-32 h-6 text-xl font-bold text-left text-white">
+                        Car 3
+                      </p>
+                    </div>
+                    <svg
+                      width="24"     height="24"     viewBox="0 0 24 24"     fill="none"     xmlns="http://www.w3.org/2000/svg"     class="w-6 h-6 absolute left-64 top-6"     preserveAspectRatio="none">
+                      <path
+                        d="M12.62 20.81C12.28 20.93 11.72 20.93 11.38 20.81C8.48 19.82 2 15.69 2 8.68998C2 5.59998 4.49 3.09998 7.56 3.09998C9.38 3.09998 10.99 3.97998 12 5.33998C13.01 3.97998 14.63 3.09998 16.44 3.09998C19.51 3.09998 22 5.59998 22 8.68998C22 15.69 15.52 19.82 12.62 20.81Z"       stroke="#AC1D1D"       stroke-width="1.5"       stroke-linecap="round"       stroke-linejoin="round"     ></path>
+                    </svg>
+                    <div class="flex flex-col justify-start items-start absolute left-6 top-[330px] gap-1">
+                      <p class="flex-grow-0 flex-shrink-0 w-32 h-6 font-bold text-left text-white">
+                        <span class="flex-grow-0 flex-shrink-0 w-32 h-6 text-xl font-bold text-left text-white">$72.00/ </span>
+                        <span class="flex-grow-0 flex-shrink-0 w-32 h-6 text-sm font-bold text-left text-white">day</span>
+                      </p>
+                    </div>
+                    <div class="flex justify-center items-center w-[116px] h-11 absolute left-[164px] top-80 gap-2 px-5 rounded bg-yellow-900">
+                      <a href="#" class="flex-grow-0 flex-shrink-0 w-[76px] h-6 text-base font-semibold text-center text-white">
+                        Rent Now
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Collection Car 4 -->
+                <div class="flex flex-col justify-start items-start flex-grow-0 flex-shrink-0 relative gap-8">
+                  <div class="flex-grow-0 flex-shrink-0 w-[304px] h-[388px] relative overflow-hidden rounded-[10px] bg-[#c4c4c4]" >
+                    <img src="assets/images/car-4.jpeg" class="w-[304px] h-[388px] absolute left-[-1.48px] top-[-1.09px] object-cover"/>
+                    
+                    <div class="flex flex-col justify-start items-start absolute left-6 top-6 gap-1">
+                      <p class="flex-grow-0 flex-shrink-0 text-xl font-bold text-left text-white">
+                        Car 4
+                      </p>
+                    </div>
+                    <svg
+                      width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 absolute left-64 top-6" preserveAspectRatio="none">
+                      <path
+                        d="M12.62 20.81C12.28 20.93 11.72 20.93 11.38 20.81C8.48 19.82 2 15.69 2 8.68998C2 5.59998 4.49 3.09998 7.56 3.09998C9.38 3.09998 10.99 3.97998 12 5.33998C13.01 3.97998 14.63 3.09998 16.44 3.09998C19.51 3.09998 22 5.59998 22 8.68998C22 15.69 15.52 19.82 12.62 20.81Z"       stroke="#1A202C"       stroke-width="1.5"       stroke-linecap="round"       stroke-linejoin="round"     ></path>
+                    </svg>
+                    <div class="flex flex-col justify-start items-start absolute left-6 top-[330px] gap-1">
+                      <p class="flex-grow-0 flex-shrink-0 w-32 h-6 font-bold text-left text-white">
+                        <span class="flex-grow-0 flex-shrink-0 w-32 h-6 text-xl font-bold text-left text-white">$72.00/ </span>
+                        <span class="flex-grow-0 flex-shrink-0 w-32 h-6 text-sm font-bold text-left text-white">day</span>
+                      </p>
+                    </div>
+                    <div class="flex justify-center items-center w-[116px] h-11 absolute left-[164px] top-80 gap-2 px-5 rounded bg-yellow-900">
+                      <a href="#" class="flex-grow-0 flex-shrink-0 w-[76px] h-6 text-base font-semibold text-center text-white">
+                        Rent Now
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Collection Car 1 -->
+                <div class="flex flex-col justify-start items-start flex-grow-0 flex-shrink-0 relative gap-8">
+                  <!-- Car Collection -->
+                  <div class="flex-grow-0 flex-shrink-0 w-[304px] h-[388px] relative overflow-hidden rounded-[10px] bg-[#c4c4c4]">
+                    <img class="w-full h-full object-cover absolute left-[-1.48px] top-[-1.09px]" src="assets/images/car.png" />
+                    <div class="flex flex-col justify-start items-start absolute left-6 top-6 gap-1">
+                      <p class="flex-grow-0 flex-shrink-0 w-32 h-6 text-xl font-bold text-left text-white">
+                        Car 1
+                      </p>
+                    </div>
+                    <svg
+                      width="24"     height="24"     viewBox="0 0 24 24"     fill="none"     xmlns="http://www.w3.org/2000/svg"     class="w-6 h-6 absolute left-64 top-6"     preserveAspectRatio="none">
+                      <path
+                        d="M12.62 20.81C12.28 20.93 11.72 20.93 11.38 20.81C8.48 19.82 2 15.69 2 8.68998C2 5.59998 4.49 3.09998 7.56 3.09998C9.38 3.09998 10.99 3.97998 12 5.33998C13.01 3.97998 14.63 3.09998 16.44 3.09998C19.51 3.09998 22 5.59998 22 8.68998C22 15.69 15.52 19.82 12.62 20.81Z"       stroke="#AC1D1D"       stroke-width="1.5"       stroke-linecap="round"       stroke-linejoin="round"     ></path>
+                    </svg>
+                    <div class="flex flex-col justify-start items-start absolute left-6 top-[330px] gap-1">
+                      <p class="flex-grow-0 flex-shrink-0 w-32 h-6 font-bold text-left text-white">
+                        <span class="flex-grow-0 flex-shrink-0 w-32 h-6 text-xl font-bold text-left text-white">$72.00/ </span>
+                        <span class="flex-grow-0 flex-shrink-0 w-32 h-6 text-sm font-bold text-left text-white">day</span>
+                      </p>
+                    </div>
+                    <div class="flex justify-center items-center w-[116px] h-11 absolute left-[164px] top-80 gap-2 px-5 rounded bg-yellow-900">
+                      <a href="#" class="flex-grow-0 flex-shrink-0 w-[76px] h-6 text-base font-semibold text-center text-white">
+                        Rent Now
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Collection Car 2 -->
+                <div class="flex flex-col justify-start items-start flex-grow-0 flex-shrink-0 relative gap-8">
+                  <div class="flex-grow-0 flex-shrink-0 w-[304px] h-[388px] relative overflow-hidden rounded-[10px] bg-[#c4c4c4]" >
+                    <img src="assets/images/car-5.jpeg" class="w-[304px] h-[388px] absolute left-[-1.48px] top-[-1.09px] object-cover"/>
+                    
+                    <div class="flex flex-col justify-start items-start absolute left-6 top-6 gap-1">
+                      <p class="flex-grow-0 flex-shrink-0 text-xl font-bold text-left text-white">
+                        Car 2
+                      </p>
+                    </div>
+                    <svg
+                      width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 absolute left-64 top-6" preserveAspectRatio="none">
+                      <path
+                        d="M12.62 20.81C12.28 20.93 11.72 20.93 11.38 20.81C8.48 19.82 2 15.69 2 8.68998C2 5.59998 4.49 3.09998 7.56 3.09998C9.38 3.09998 10.99 3.97998 12 5.33998C13.01 3.97998 14.63 3.09998 16.44 3.09998C19.51 3.09998 22 5.59998 22 8.68998C22 15.69 15.52 19.82 12.62 20.81Z"       stroke="#1A202C"       stroke-width="1.5"       stroke-linecap="round"       stroke-linejoin="round"     ></path>
+                    </svg>
+                    <div class="flex flex-col justify-start items-start absolute left-6 top-[330px] gap-1">
+                      <p class="flex-grow-0 flex-shrink-0 w-32 h-6 font-bold text-left text-white">
+                        <span class="flex-grow-0 flex-shrink-0 w-32 h-6 text-xl font-bold text-left text-white">$72.00/ </span>
+                        <span class="flex-grow-0 flex-shrink-0 w-32 h-6 text-sm font-bold text-left text-white">day</span>
+                      </p>
+                    </div>
+                    <div class="flex justify-center items-center w-[116px] h-11 absolute left-[164px] top-80 gap-2 px-5 rounded bg-yellow-900">
+                      <a href="#" class="flex-grow-0 flex-shrink-0 w-[76px] h-6 text-base font-semibold text-center text-white">
+                        Rent Now
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Collection Car 3 -->
+                <div class="flex flex-col justify-start items-start flex-grow-0 flex-shrink-0 relative gap-8">
+                  <!-- Car Collection -->
+                  <div class="flex-grow-0 flex-shrink-0 w-[304px] h-[388px] relative overflow-hidden rounded-[10px] bg-[#c4c4c4]">
+                    <img class="w-full h-full object-cover absolute left-[-1.48px] top-[-1.09px]" src="assets/images/car-5.jpeg" />
+                    <div class="flex flex-col justify-start items-start absolute left-6 top-6 gap-1">
+                      <p class="flex-grow-0 flex-shrink-0 w-32 h-6 text-xl font-bold text-left text-white">
+                        Car 3
+                      </p>
+                    </div>
+                    <svg
+                      width="24"     height="24"     viewBox="0 0 24 24"     fill="none"     xmlns="http://www.w3.org/2000/svg"     class="w-6 h-6 absolute left-64 top-6"     preserveAspectRatio="none">
+                      <path
+                        d="M12.62 20.81C12.28 20.93 11.72 20.93 11.38 20.81C8.48 19.82 2 15.69 2 8.68998C2 5.59998 4.49 3.09998 7.56 3.09998C9.38 3.09998 10.99 3.97998 12 5.33998C13.01 3.97998 14.63 3.09998 16.44 3.09998C19.51 3.09998 22 5.59998 22 8.68998C22 15.69 15.52 19.82 12.62 20.81Z"       stroke="#AC1D1D"       stroke-width="1.5"       stroke-linecap="round"       stroke-linejoin="round"     ></path>
+                    </svg>
+                    <div class="flex flex-col justify-start items-start absolute left-6 top-[330px] gap-1">
+                      <p class="flex-grow-0 flex-shrink-0 w-32 h-6 font-bold text-left text-white">
+                        <span class="flex-grow-0 flex-shrink-0 w-32 h-6 text-xl font-bold text-left text-white">$72.00/ </span>
+                        <span class="flex-grow-0 flex-shrink-0 w-32 h-6 text-sm font-bold text-left text-white">day</span>
+                      </p>
+                    </div>
+                    <div class="flex justify-center items-center w-[116px] h-11 absolute left-[164px] top-80 gap-2 px-5 rounded bg-yellow-900">
+                      <a href="#" class="flex-grow-0 flex-shrink-0 w-[76px] h-6 text-base font-semibold text-center text-white">
+                        Rent Now
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Collection Car 4 -->
+                <div class="flex flex-col justify-start items-start flex-grow-0 flex-shrink-0 relative gap-8">
+                  <div class="flex-grow-0 flex-shrink-0 w-[304px] h-[388px] relative overflow-hidden rounded-[10px] bg-[#c4c4c4]" >
+                    <img src="assets/images/car-4.jpeg" class="w-[304px] h-[388px] absolute left-[-1.48px] top-[-1.09px] object-cover"/>
+                    
+                    <div class="flex flex-col justify-start items-start absolute left-6 top-6 gap-1">
+                      <p class="flex-grow-0 flex-shrink-0 text-xl font-bold text-left text-white">
+                        Car 4
+                      </p>
+                    </div>
+                    <svg
+                      width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 absolute left-64 top-6" preserveAspectRatio="none">
+                      <path
+                        d="M12.62 20.81C12.28 20.93 11.72 20.93 11.38 20.81C8.48 19.82 2 15.69 2 8.68998C2 5.59998 4.49 3.09998 7.56 3.09998C9.38 3.09998 10.99 3.97998 12 5.33998C13.01 3.97998 14.63 3.09998 16.44 3.09998C19.51 3.09998 22 5.59998 22 8.68998C22 15.69 15.52 19.82 12.62 20.81Z"       stroke="#1A202C"       stroke-width="1.5"       stroke-linecap="round"       stroke-linejoin="round"     ></path>
+                    </svg>
+                    <div class="flex flex-col justify-start items-start absolute left-6 top-[330px] gap-1">
+                      <p class="flex-grow-0 flex-shrink-0 w-32 h-6 font-bold text-left text-white">
+                        <span class="flex-grow-0 flex-shrink-0 w-32 h-6 text-xl font-bold text-left text-white">$72.00/ </span>
+                        <span class="flex-grow-0 flex-shrink-0 w-32 h-6 text-sm font-bold text-left text-white">day</span>
+                      </p>
+                    </div>
+                    <div class="flex justify-center items-center w-[116px] h-11 absolute left-[164px] top-80 gap-2 px-5 rounded bg-yellow-900">
+                      <a href="#" class="flex-grow-0 flex-shrink-0 w-[76px] h-6 text-base font-semibold text-center text-white">
+                        Rent Now
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+
+            <div class="flex justify-end items-center gap-[438px]">
+              <div class="flex justify-center items-center flex-grow-0 flex-shrink-0 w-[156px] h-11 relative gap-2 px-5 rounded bg-yellow-900">
+                <a class="flex-grow-0 flex-shrink-0 w-[116px] h-6 text-base font-semibold text-center text-white">
+                  Show more car
+                </a>
+              </div>
+              <span class="flex-grow-0 flex-shrink-0 w-[140px] h-6 text-sm font-medium text-right text-black">
+                120 Car
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Why choose us -->
+      <div class="why-choose-us relative w-full h-auto overflow-hidden bg-white py-32 relative">
+        <div class="w-3/4 m-auto h-full">
+
+          <div class="w-full mb-10">
+            <p class="text-5xl font-medium text-center text-black mb-4">
+              Why choose us
+            </p>
+            <p class="h-[67.42px] text-lg text-center text-[#1a202c]">
+              <span class="h-[67.42px] text-lg text-center text-[#1a202c]">A high-performing web-based car rental system for any rent-a-car company and website</span>
+            </p>
+          </div>
+          <div class="flex justify-center gap-20 items-center relative">
+
+            <div class="w-3/4 h-[528px]">
+              <img src="assets/images/why-choose-image.jpeg" class="w-full h-[528px] rounded-[22px] object-cover" />
+            </div>
+
+            <div class="w-full h-[382.75px] flex flex-col items-center justify-center gap-8">
+              <div class="w-full flex justify-start items-center gap-4">
+                <svg
+                  width="52"
+                  height="52"
+                  viewBox="0 0 52 52"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="w-[51.45px] h-[51.45px]"
+                  preserveAspectRatio="none">
+                  <rect width="51.4521" height="51.4521" rx="10" transform="matrix(-1 0 0 1 51.4521 0.146973)" fill="black"></rect>
+                  <path
+                    d="M25.726 38.0594C27.4359 36.6009 29.0209 35.0019 30.4643 33.2792C32.6303 30.6921 35.2025 26.8392 35.2025 23.1678C35.2035 21.2927 34.6481 19.4595 33.6068 17.9002C32.5655 16.3409 31.085 15.1256 29.3527 14.408C27.6204 13.6904 25.7142 13.5028 23.8752 13.869C22.0363 14.2352 20.3473 15.1387 19.0221 16.4652C18.1398 17.3436 17.4404 18.3883 16.9645 19.5388C16.4886 20.6893 16.2456 21.9227 16.2495 23.1678C16.2495 26.8392 18.8217 30.6921 20.9878 33.2792C22.4312 35.0019 24.0161 36.6009 25.726 38.0594ZM25.726 19.1064C26.8032 19.1064 27.8362 19.5343 28.5978 20.296C29.3595 21.0576 29.7874 22.0906 29.7874 23.1678C29.7874 24.2449 29.3595 25.2779 28.5978 26.0396C27.8362 26.8012 26.8032 27.2291 25.726 27.2291C24.6489 27.2291 23.6159 26.8012 22.8542 26.0396C22.0926 25.2779 21.6647 24.2449 21.6647 23.1678C21.6647 22.0906 22.0926 21.0576 22.8542 20.296C23.6159 19.5343 24.6489 19.1064 25.726 19.1064Z" fill="white">
+                  </path>
+                </svg>
+                <div class="w-full">
+                  <h4 class="text-xl font-semibold text-left text-[#1a202c]">
+                    Many Location
+                  </h4>
+                  <p class="w-full text-base text-left text-[#1a202c]">
+                    Aliquam erat volutpat. Integer malesuada turpis id fringilla suscipit. Maecenas
+                    ultrices.
+                  </p>
+                </div>
+              </div>
+
+              <div class="w-full flex justify-start items-center gap-4">
+
+                <svg
+                  width="52"
+                  height="52"
+                  viewBox="0 0 52 52"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="w-[51.45px] h-[51.45px]"
+                  preserveAspectRatio="none"
+                >
+                  <rect
+                    width="51.4521" height="51.4521" rx="10" transform="matrix(-1 0 0 1 51.4521 0.22998)" fill="black"
+                  ></rect>
+                  <g clip-path="url(#clip0_1_258)">
+                    <path
+                      d="M34.9761 17.9561H28.9761C28.5641 17.9561 27.9871 18.1951 27.6961 18.4861L20.2571 25.9251C20.1168 26.066 20.0381 26.2567 20.0381 26.4556C20.0381 26.6544 20.1168 26.8451 20.2571 26.9861L26.6961 33.4251C26.837 33.5653 27.0278 33.6441 27.2266 33.6441C27.4254 33.6441 27.6162 33.5653 27.7571 33.4251L35.1961 25.9861C35.4881 25.6941 35.7261 25.1181 35.7261 24.7061V18.7061C35.7256 18.5073 35.6464 18.3168 35.5058 18.1763C35.3653 18.0358 35.1749 17.9566 34.9761 17.9561V17.9561ZM31.2261 23.9561C31.0291 23.956 30.8339 23.9171 30.6519 23.8416C30.4699 23.7662 30.3045 23.6556 30.1652 23.5162C30.0259 23.3768 29.9155 23.2114 29.8401 23.0293C29.7648 22.8472 29.726 22.6521 29.7261 22.4551C29.7262 22.258 29.765 22.0629 29.8405 21.8809C29.916 21.6989 30.0266 21.5335 30.1659 21.3942C30.3053 21.2549 30.4708 21.1444 30.6528 21.0691C30.8349 20.9937 31.0301 20.955 31.2271 20.9551C31.6251 20.9552 32.0067 21.1134 32.288 21.3949C32.5693 21.6764 32.7272 22.0581 32.7271 22.4561C32.727 22.854 32.5688 23.2356 32.2873 23.5169C32.0058 23.7982 31.6241 23.9562 31.2261 23.9561V23.9561Z" fill="white"></path>
+                    <path
+                      d="M17.7261 26.4561L26.2261 17.9561H24.9761C24.5641 17.9561 23.9871 18.1951 23.6961 18.4861L16.2571 25.9251C16.1168 26.066 16.0381 26.2567 16.0381 26.4556C16.0381 26.6544 16.1168 26.8451 16.2571 26.9861L22.6961 33.4251C22.837 33.5653 23.0278 33.6441 23.2266 33.6441C23.4254 33.6441 23.6162 33.5653 23.7571 33.4251L24.2271 32.9551L17.7271 26.4551L17.7261 26.4561Z" fill="white"></path>
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_1_258">
+                      <rect
+                        width="20" height="16" fill="white" transform="translate(15.7261 17.9561)"></rect>
+                    </clipPath>
+                  </defs>
+                </svg>
+                <div class="w-full">
+                  <h4 class="text-xl font-semibold text-left text-[#1a202c]">
+                    Best Price Guarantted
+                  </h4>
+                  <p class="w-full text-base text-left text-[#1a202c]">
+                    Aliquam erat volutpat. Integer malesuada turpis id fringilla suscipit. Maecenas
+                    ultrices.
+                  </p>
+                </div>
+              </div>
+              
+              <div class="w-full flex justify-start items-center gap-4">
+                <svg
+                  width="52"
+                  height="52"
+                  viewBox="0 0 52 52"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="w-[51.45px] h-[51.45px]"
+                  preserveAspectRatio="none">
+                  <rect
+                    width="51.4521" height="51.4521" rx="10" transform="matrix(-1 0 0 1 51.4521 0.312988)" fill="black"
+                  ></rect>
+                  <path
+                    d="M21.0674 12.8454L22.3227 12.4441C23.4999 12.0684 24.7575 12.6763 25.2615 13.8639L26.2649 16.2299C26.7012 17.2601 26.4585 18.4723 25.6652 19.2259L23.4544 21.3236C23.5909 22.5789 24.0132 23.8144 24.7202 25.0301C25.3916 26.2063 26.2921 27.2357 27.3685 28.0576L30.0239 27.1709C31.0295 26.8361 32.1262 27.2223 32.7422 28.1288L34.1807 30.2404C34.8982 31.2951 34.7687 32.7488 33.8785 33.6424L32.9254 34.6003C31.9757 35.5534 30.6189 35.8999 29.3647 35.5079C26.4014 34.5839 23.6795 31.8411 21.1945 27.2794C18.706 22.7108 17.8275 18.8328 18.5602 15.6501C18.8682 14.3108 19.8214 13.2433 21.0674 12.8454V12.8454Z" fill="white"
+                  ></path>
+                </svg>
+                <div class="w-full">
+                  <h4 class="text-xl font-semibold text-left text-[#1a202c]">
+                    Customer Support
+                  </h4>
+                  <p class="w-full text-base text-left text-[#1a202c]">
+                    Aliquam erat volutpat. Integer malesuada turpis id fringilla suscipit. Maecenas
+                    ultrices.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- /why-choose-us -->
+
+      <!-- Testimony -->
+      <div class="testimony relative w-full h-auto overflow-hidden bg-[#f3f3f3] py-32">
+        <div class="w-3/4 h-full m-auto">
+          
+          <div class="w-full">
+            <h2 class="text-[35px] font-medium text-center text-[#0b132a]">
+              <span class="text-[35px] font-medium text-center text-[#0b132a]">Trusted by Thousands of </span><span class="text-[35px] font-medium text-center text-[#0b132a]">Happy Customer</span>
+            </h2>
+            <p class="text-lg text-center text-[#1a202c]">
+              <span class="text-lg text-center text-[#1a202c]">A high-performing web-based car rental system for any rent-a-car company and website</span>
+            </p>
+          </div>
+          <div class="w-full flex justify-center items-center gap-10 mt-24">
+            
+            <div class="w-[400px] h-[300.81px] relative">
+              <div class="w-[318.35px] h-[300.81px] absolute left-[40.32px] top-[-0.5px] opacity-[0.006] rounded-[10px] bg-[#0d1025]"></div>
+              <div class="w-[400px] h-[230px] overflow-hidden rounded-[10px] bg-[#c4c4c4] p-6 ">
+                <div class="w-full mb-4">
+                  <div class="flex items-center justify-between">
+                    <div class="flex justify-start items-start gap-2" >
+                      <img class="border rounded-full" src="assets/images/ellipse-2519.png" />
+                      <div class="flex flex-col">
+                        <p class="flex-grow-0 flex-shrink-0 text-base font-medium text-center text-[#0b132a]">
+                          Geneses 0.0
+                        </p>
+                        <p class="flex-grow-0 flex-shrink-0 text-xs text-center text-[#4f5665]">
+                          Dakar, Sénégal
+                        </p>
+                      </div>
+                    </div>
+                    <div class="w-6 h-4">
+                      <p class="w-6 h-4 text-base text-left text-[#0b132a]">4.5</p>
+                    </div>
+
+                  </div>
+                </div>
+                <p class="w-[340px] h-[100px] text-base text-left text-[#0b132a]">
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+                  ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate...
+                </p>
+              </div>
+            </div>
+
+            <div class="w-[400px] h-[300.81px] relative">
+              <div class="w-[318.35px] h-[300.81px] absolute left-[40.32px] top-[-0.5px] opacity-[0.006] rounded-[10px] bg-[#0d1025]"></div>
+              <div class="w-[400px] h-[230px] overflow-hidden rounded-[10px] bg-[#c4c4c4] p-6 ">
+                <div class="w-full mb-4">
+                  <div class="flex items-center justify-between">
+                    <div class="flex justify-start items-start gap-2" >
+                      <img class="border rounded-full" src="assets/images/ellipse-2519-3.png" />
+                      <div class="flex flex-col items-start">
+                        <p class="flex-grow-0 flex-shrink-0 text-base font-medium text-center text-[#0b132a]">
+                          John Doe 0.0
+                        </p>
+                        <p class="flex-grow-0 flex-shrink-0 text-xs text-center text-[#4f5665]">
+                          Abidjan, Côte d'ivoire
+                        </p>
+                      </div>
+                    </div>
+                    <div class="w-6 h-4">
+                      <p class="w-6 h-4 text-base text-left text-[#0b132a]">4.5</p>
+                    </div>
+
+                  </div>
+                </div>
+                <p class="w-[340px] h-[100px] text-base text-left text-[#0b132a]">
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+                  ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate...
+                </p>
+              </div>
+            </div>
+            
+            <div class="w-[400px] h-[300.81px] relative">
+              <div class="w-[318.35px] h-[300.81px] absolute left-[40.32px] top-[-0.5px] opacity-[0.006] rounded-[10px] bg-[#0d1025]"></div>
+              <div class="w-[400px] h-[230px] overflow-hidden rounded-[10px] bg-[#c4c4c4] p-6 ">
+                <div class="w-full mb-4">
+                  <div class="flex items-center justify-between">
+                    <div class="flex justify-start items-start gap-2" >
+                      <img class="border rounded-full" src="assets/images/ellipse-2519-2.png" />
+                      <div class="flex flex-col items-start">
+                        <p class="flex-grow-0 flex-shrink-0 text-base font-medium text-center text-[#0b132a]">Ya Rabbi
+                        </p>
+                        <p class="flex-grow-0 flex-shrink-0 text-xs text-center text-[#4f5665]">
+                          Accra, Ghana
+                        </p>
+                      </div>
+                    </div>
+                    <div class="w-6 h-4">
+                      <p class="w-6 h-4 text-base text-left text-[#0b132a]">4.5</p>
+                    </div>
+
+                  </div>
+                </div>
+                <p class="w-[340px] h-[100px] text-base text-left text-[#0b132a]">
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+                  ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate...
+                </p>
+              </div>
+            </div>
+
+          </div>
+
+          <div>
+            <svg
+              width="1125"
+              height="31"
+              viewBox="0 0 1125 31"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              class="w-full h-[30px]"
+              preserveAspectRatio="none">
+              <circle cx="67.5" cy="15.4492" r="7.5" fill="#DDE0E4"></circle>
+              <circle cx="97.5" cy="15.4492" r="7.5" fill="#DDE0E4"></circle>
+              <circle cx="127.5" cy="15.4492" r="7.5" fill="#DDE0E4"></circle>
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M7.55721 22.949C7.53816 22.9491 7.51909 22.9492 7.5 22.9492C7.48091 22.9492 7.46184 22.9491 7.44279 22.949H6.9469V22.9291C3.06303 22.646 0 19.4053 0 15.4492C0 11.4931 3.06303 8.25241 6.9469 7.9693V7.94922H7.5H37.0841V7.96056C37.2218 7.95303 37.3604 7.94922 37.5 7.94922C41.6421 7.94922 45 11.3071 45 15.4492C45 19.5914 41.6421 22.9492 37.5 22.9492C37.3604 22.9492 37.2218 22.9454 37.0841 22.9379V22.949H7.55721Z"
+                fill="#1A202C"
+              ></path>
+              <path
+                d="M1038.75 14.1988H1023.92L1028.46 8.74883C1028.67 8.49356 1028.78 8.16446 1028.75 7.83393C1028.72 7.50339 1028.56 7.1985 1028.3 6.98633C1028.04 6.77416 1027.72 6.67208 1027.39 6.70256C1027.05 6.73303 1026.75 6.89356 1026.54 7.14883L1020.29 14.6488C1020.25 14.7085 1020.21 14.7712 1020.17 14.8363C1020.17 14.8988 1020.18 14.9363 1020.09 14.9988C1020.03 15.1422 1020 15.2947 1020 15.4488C1020 15.6029 1020.03 15.7555 1020.09 15.8988C1020.09 15.9613 1020.09 15.9988 1020.17 16.0613C1020.21 16.1265 1020.25 16.1892 1020.29 16.2488L1026.54 23.7488C1026.66 23.8899 1026.8 24.0034 1026.97 24.0812C1027.13 24.159 1027.32 24.1991 1027.5 24.1988C1027.79 24.1994 1028.08 24.0977 1028.3 23.9113C1028.43 23.8064 1028.53 23.6775 1028.61 23.5321C1028.68 23.3866 1028.73 23.2275 1028.75 23.0638C1028.76 22.9001 1028.74 22.735 1028.7 22.578C1028.65 22.421 1028.57 22.2751 1028.46 22.1488L1023.92 16.6988H1038.75C1039.08 16.6988 1039.4 16.5671 1039.63 16.3327C1039.87 16.0983 1040 15.7804 1040 15.4488C1040 15.1173 1039.87 14.7994 1039.63 14.5649C1039.4 14.3305 1039.08 14.1988 1038.75 14.1988Z"
+                fill="#0B132A"
+              ></path>
+              <path
+                d="M1101.25 14.1988H1116.08L1111.54 8.74883C1111.33 8.49356 1111.22 8.16446 1111.25 7.83393C1111.28 7.50339 1111.44 7.1985 1111.7 6.98633C1111.96 6.77416 1112.28 6.67208 1112.61 6.70256C1112.95 6.73303 1113.25 6.89356 1113.46 7.14883L1119.71 14.6488C1119.75 14.7085 1119.79 14.7712 1119.83 14.8363C1119.83 14.8988 1119.82 14.9363 1119.91 14.9988C1119.97 15.1422 1120 15.2947 1120 15.4488C1120 15.6029 1119.97 15.7555 1119.91 15.8988C1119.91 15.9613 1119.91 15.9988 1119.83 16.0613C1119.79 16.1265 1119.75 16.1892 1119.71 16.2488L1113.46 23.7488C1113.34 23.8899 1113.2 24.0034 1113.03 24.0812C1112.87 24.159 1112.68 24.1991 1112.5 24.1988C1112.21 24.1994 1111.92 24.0977 1111.7 23.9113C1111.57 23.8064 1111.47 23.6775 1111.39 23.5321C1111.32 23.3866 1111.27 23.2275 1111.25 23.0638C1111.24 22.9001 1111.26 22.735 1111.3 22.578C1111.35 22.421 1111.43 22.2751 1111.54 22.1488L1116.08 16.6988H1101.25C1100.92 16.6988 1100.6 16.5671 1100.37 16.3327C1100.13 16.0983 1100 15.7804 1100 15.4488C1100 15.1173 1100.13 14.7994 1100.37 14.5649C1100.6 14.3305 1100.92 14.1988 1101.25 14.1988Z"
+                fill="#0B132A"
+              ></path>
+            </svg>
+          </div>
+        </div>
+      </div>
+
+      <!-- Footer -->
+      <div class="relative w-full h-auto overflow-hidden bg-black pt-28 pb-2">
+        <div class="w-3/4 h-full m-auto">
+
+          <div class="w-full flex justify-between items-center mb-10">
+
+            <!-- Company -->
+            <div class="">
+
+              <div class="w-[174.16px] mb-4">
+                <span class="w-[174.16px] text-2xl font-semibold text-left text-white">
+                  Geneses Rent
+                </span>
+              </div>
+
+              <div class="flex flex-col justify-start items-start gap-4 mb-8">
+                <p class="flex-grow-0 flex-shrink-0 w-[292px] text-sm font-medium text-left text-white">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                  incididunt ut labore et dolore magna aliqua.
+                </p>
+              </div>
+
+              <div class="flex justify-start items-start">
+                <svg
+                  width="53"
+                  height="53"
+                  viewBox="0 0 53 53"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  preserveAspectRatio="none">
+                  <g filter="url(#filter0_d_1_306)">
+                    <circle cx="34.8001" cy="21.7999" r="16.7999" fill="#1A202C"></circle>
+                  </g>
+                  <path d="M34.8 5C25.5215 5 18 12.5215 18 21.8C18 31.0785 25.5215 38.6 34.8 38.6C44.0785 38.6 51.6 31.0785 51.6 21.8C51.6 12.5215 44.0785 5 34.8 5ZM38.7795 16.6095H36.2543C35.955 16.6095 35.6225 17.0033 35.6225 17.5265V19.35H38.7813L38.3035 21.9505H35.6225V29.7573H32.6423V21.9505H29.9385V19.35H32.6423V17.8205C32.6423 15.626 34.1648 13.8428 36.2543 13.8428H38.7795V16.6095Z" fill="white"></path>
+                  <defs>
+                    <filter
+                      id="filter0_d_1_306" x="0.00012207" y="0" width="69.5999" height="69.5999" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                      <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                      <feColorMatrix
+                        in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"></feColorMatrix>
+                      <feOffset dy="13"></feOffset>
+                      <feGaussianBlur stdDeviation="9"></feGaussianBlur>
+                      <feColorMatrix
+                        type="matrix" values="0 0 0 0 0.0658854 0 0 0 0 0.0730469 0 0 0 0 0.1375 0 0 0 0.08 0"></feColorMatrix>
+                      <feBlend
+                        mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1_306"></feBlend>
+                      <feBlend
+                        mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1_306" result="shape"></feBlend>
+                    </filter>
+                  </defs>
+                </svg>
+                <svg
+                  width="53"
+                  height="53"
+                  viewBox="0 0 53 53"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  preserveAspectRatio="none">
+                  <g filter="url(#filter0_d_1_309)">
+                    <circle cx="35.4002" cy="21.7999" r="16.7999" fill="#1A202C"></circle>
+                  </g>
+                  <path
+                    d="M35.4001 5C26.1216 5 18.6001 12.5215 18.6001 21.8C18.6001 31.0785 26.1216 38.6 35.4001 38.6C44.6786 38.6 52.2001 31.0785 52.2001 21.8C52.2001 12.5215 44.6786 5 35.4001 5ZM42.2339 18.762C42.2409 18.9055 42.2426 19.049 42.2426 19.189C42.2426 23.564 38.9159 28.6058 32.8294 28.6058C31.0309 28.6087 29.2698 28.0922 27.7578 27.1183C28.0151 27.1498 28.2793 27.162 28.5471 27.162C30.0976 27.162 31.5239 26.6353 32.6561 25.7463C31.9661 25.7327 31.2975 25.5042 30.7435 25.0927C30.1896 24.6811 29.7778 24.107 29.5656 23.4503C30.0611 23.5445 30.5716 23.5247 31.0583 23.3925C30.3094 23.2411 29.6359 22.8353 29.1521 22.2439C28.6682 21.6526 28.4038 20.9121 28.4036 20.148V20.1078C28.8498 20.3545 29.3608 20.505 29.9033 20.5225C29.2012 20.0551 28.7042 19.3372 28.5139 18.5155C28.3236 17.6938 28.4544 16.8304 28.8796 16.102C29.7108 17.124 30.7473 17.9601 31.9221 18.556C33.0969 19.152 34.3837 19.4947 35.6994 19.5618C35.5321 18.8518 35.6041 18.1065 35.9041 17.4416C36.2042 16.7768 36.7154 16.2297 37.3585 15.8855C38.0015 15.5412 38.7403 15.419 39.4599 15.5379C40.1796 15.6568 40.8397 16.0102 41.3379 16.543C42.0784 16.3965 42.7886 16.1248 43.4379 15.7398C43.191 16.5065 42.6743 17.1576 41.9836 17.572C42.6396 17.493 43.2801 17.3166 43.8841 17.0488C43.4405 17.7136 42.8816 18.2938 42.2339 18.762V18.762Z" fill="white"
+                  ></path>
+                  <defs>
+                    <filter
+                      id="filter0_d_1_309"   x="0.60022"   y="0"   width="69.5999"   height="69.5999"   filterUnits="userSpaceOnUse"   color-interpolation-filters="sRGB" >
+                      <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                      <feColorMatrix
+                        in="SourceAlpha"     type="matrix"     values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"     result="hardAlpha"   ></feColorMatrix>
+                      <feOffset dy="13"></feOffset>
+                      <feGaussianBlur stdDeviation="9"></feGaussianBlur>
+                      <feColorMatrix
+                        type="matrix"     values="0 0 0 0 0.0658854 0 0 0 0 0.0730469 0 0 0 0 0.1375 0 0 0 0.08 0"   ></feColorMatrix>
+                      <feBlend
+                        mode="normal"     in2="BackgroundImageFix"     result="effect1_dropShadow_1_309"   ></feBlend>
+                      <feBlend
+                        mode="normal"     in="SourceGraphic"     in2="effect1_dropShadow_1_309"     result="shape"   ></feBlend>
+                    </filter>
+                  </defs>
+                </svg>
+                <svg
+                  width="53"
+                  height="53"
+                  viewBox="0 0 53 53"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  preserveAspectRatio="none"
+                >
+                  <g filter="url(#filter0_d_1_312)">
+                    <circle cx="35.0003" cy="21.7999" r="16.7999" fill="#1A202C"></circle>
+                  </g>
+                  <path
+                    d="M40.2502 21.8C40.2502 23.1924 39.6971 24.5277 38.7125 25.5123C37.7279 26.4969 36.3926 27.05 35.0002 27.05C33.6078 27.05 32.2725 26.4969 31.2879 25.5123C30.3033 24.5277 29.7502 23.1924 29.7502 21.8C29.7502 21.5008 29.7817 21.2085 29.8359 20.925H28.0002V27.9198C28.0002 28.4063 28.3939 28.8 28.8804 28.8H41.1217C41.3549 28.7995 41.5783 28.7066 41.743 28.5416C41.9077 28.3765 42.0002 28.1529 42.0002 27.9198V20.925H40.1644C40.2187 21.2085 40.2502 21.5008 40.2502 21.8V21.8ZM35.0002 25.3C35.4599 25.2999 35.9152 25.2092 36.3399 25.0332C36.7646 24.8571 37.1504 24.5992 37.4754 24.274C37.8004 23.9488 38.0582 23.5628 38.234 23.138C38.4099 22.7133 38.5003 22.258 38.5002 21.7983C38.5001 21.3385 38.4094 20.8833 38.2334 20.4586C38.0573 20.0339 37.7994 19.648 37.4742 19.323C37.149 18.998 36.763 18.7402 36.3382 18.5644C35.9135 18.3886 35.4582 18.2981 34.9984 18.2983C34.07 18.2985 33.1796 18.6675 32.5232 19.3243C31.8668 19.981 31.4982 20.8715 31.4984 21.8C31.4987 22.7285 31.8677 23.6189 32.5244 24.2752C33.1812 24.9316 34.0717 25.3002 35.0002 25.3V25.3ZM39.2002 18.125H41.2984C41.4378 18.125 41.5716 18.0697 41.6703 17.9713C41.769 17.8729 41.8247 17.7394 41.8252 17.6V15.5018C41.8252 15.362 41.7697 15.2281 41.6709 15.1293C41.5721 15.0305 41.4382 14.975 41.2984 14.975H39.2002C39.0605 14.975 38.9265 15.0305 38.8277 15.1293C38.7289 15.2281 38.6734 15.362 38.6734 15.5018V17.6C38.6752 17.8888 38.9114 18.125 39.2002 18.125V18.125ZM35.0002 5C30.5446 5 26.2714 6.76999 23.1208 9.92061C19.9702 13.0712 18.2002 17.3444 18.2002 21.8C18.2002 26.2556 19.9702 30.5288 23.1208 33.6794C26.2714 36.83 30.5446 38.6 35.0002 38.6C37.2064 38.6 39.391 38.1655 41.4293 37.3212C43.4676 36.4769 45.3196 35.2394 46.8796 33.6794C48.4396 32.1194 49.6771 30.2674 50.5214 28.2291C51.3657 26.1908 51.8002 24.0062 51.8002 21.8C51.8002 19.5938 51.3657 17.4092 50.5214 15.3709C49.6771 13.3326 48.4396 11.4806 46.8796 9.92061C45.3196 8.36058 43.4676 7.1231 41.4293 6.27882C39.391 5.43454 37.2064 5 35.0002 5V5ZM43.7502 28.6058C43.7502 29.675 42.8752 30.55 41.8059 30.55H28.1944C27.1252 30.55 26.2502 29.675 26.2502 28.6058V14.9943C26.2502 13.925 27.1252 13.05 28.1944 13.05H41.8059C42.8752 13.05 43.7502 13.925 43.7502 14.9943V28.6058V28.6058Z" fill="white"
+                  ></path>
+                  <defs>
+                    <filter
+                      id="filter0_d_1_312"   x="0.200317"   y="0"   width="69.5999"   height="69.5999"   filterUnits="userSpaceOnUse"   color-interpolation-filters="sRGB" >
+                      <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                      <feColorMatrix
+                        in="SourceAlpha"     type="matrix"     values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"     result="hardAlpha"   ></feColorMatrix>
+                      <feOffset dy="13"></feOffset>
+                      <feGaussianBlur stdDeviation="9"></feGaussianBlur>
+                      <feColorMatrix
+                        type="matrix"     values="0 0 0 0 0.0658854 0 0 0 0 0.0730469 0 0 0 0 0.1375 0 0 0 0.08 0"   ></feColorMatrix>
+                      <feBlend
+                        mode="normal"     in2="BackgroundImageFix"     result="effect1_dropShadow_1_312"   ></feBlend>
+                      <feBlend
+                        mode="normal"     in="SourceGraphic"     in2="effect1_dropShadow_1_312"     result="shape"   ></feBlend>
+                    </filter>
+                  </defs>
+                </svg>
+              </div>
+
+            </div>
+
+            <!-- About us -->
+            <div class="">
+              <h5 class="w-[152px] text-xl font-semibold text-left text-white mb-3">
+                About
+              </h5>
+              <div class="flex flex-col items-start gap-2">
+
+                <span class="w-[152px] text-sm font-medium text-left text-white">
+                  Bussiness Relation
+                </span>
+                <span class="w-[152px] text-sm font-medium text-left text-white">
+                  Partnership
+                </span>
+                <span class="w-[152px] text-sm font-medium text-left text-white">
+                  Featured
+                </span>
+                <span class="w-[152px] text-sm font-medium text-left text-white">
+                  How it works
+                </span>
+
+              </div>
+            </div>
+            
+            <!-- Column Community -->
+            <div class="">
+              <h5 class="w-[152px] text-xl font-semibold text-left text-white mb-3">
+                Community
+              </h5>
+              <div class="flex flex-col items-start gap-2">
+
+                <span class="w-[152px] text-sm font-medium text-left text-white">
+                  Invite a friend
+                </span>
+                <span class="w-[152px] text-sm font-medium text-left text-white">
+                  Podcast
+                </span>
+                <span class="w-[152px] text-sm font-medium text-left text-white">
+                  Blog
+                </span>
+                <span class="w-[152px] text-sm font-medium text-left text-white">
+                  Events
+                </span>
+              </div>
+            </div>
+
+            <!-- Contact column -->
+            <div class="">
+              <h5 class="w-[152px] text-xl font-semibold text-left text-white mb-3">
+                Contact Us
+              </h5>
+              <div class="w-[237px] flex flex-col items-start  gap-2">
+                <div class="w-[193px] flex justify-start items-center gap-1">
+                  <svg width="33" height="33" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-[33px] h-[33px]" preserveAspectRatio="none">
+                    <rect width="33" height="33" rx="16.5" fill="#E0A763"></rect>
+                    <path d="M12.0285 10.7321L12.6409 10.3288C13.2152 9.9509 13.9767 10.1407 14.4204 10.772L15.3037 12.0298C15.6881 12.5775 15.7361 13.3227 15.4224 13.8717L14.548 15.4002C14.805 16.1203 15.212 16.7906 15.7683 17.4113C16.2997 18.0135 16.9322 18.4989 17.6282 18.8388L18.9179 17.9634C19.4065 17.6324 20.0494 17.7133 20.5117 18.1643L21.5905 19.2145C22.1288 19.7391 22.2727 20.6113 21.9278 21.2556L21.5586 21.9459C21.1906 22.6331 20.516 23.0178 19.788 22.9544C18.0681 22.806 16.2106 21.5557 14.2131 19.2042C12.2126 16.849 11.1743 14.6853 11.0993 12.7159C11.0676 11.8871 11.4207 11.1322 12.0285 10.7321V10.7321Z" fill="white"></path>
+                  </svg>
+                  <span class="w-[152px] text-sm font-medium text-left text-white">
+                    00-000-00-000
+                  </span>
+                </div>
+                <div class="w-[194px] flex justify-start items-center gap-1">
+                  <svg width="33" height="33" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-[33px] h-[33px]" preserveAspectRatio="none">
+                    <rect width="33" height="33" rx="16.5" fill="#E0A763"></rect>
+                    <g clip-path="url(#clip0_106_235)">
+                      <path
+                        d="M24.1649 10.9999C24.0968 10.9929 24.0281 10.9929 23.9599 10.9999H9.95995C9.87022 11.0013 9.78108 11.0147 9.69495 11.0399L16.9199 18.2349L24.1649 10.9999Z"     fill="white"   ></path>
+                      <path
+                        d="M24.905 11.6951L17.625 18.9451C17.4376 19.1313 17.1842 19.2359 16.92 19.2359C16.6558 19.2359 16.4023 19.1313 16.215 18.9451L8.99997 11.7501C8.97779 11.8316 8.96603 11.9156 8.96497 12.0001V22.0001C8.96497 22.2653 9.07032 22.5196 9.25786 22.7072C9.4454 22.8947 9.69975 23.0001 9.96497 23.0001H23.965C24.2302 23.0001 24.4845 22.8947 24.6721 22.7072C24.8596 22.5196 24.965 22.2653 24.965 22.0001V12.0001C24.961 11.8959 24.9407 11.793 24.905 11.6951ZM10.65 22.0001H9.95497V21.2851L13.59 17.6801L14.295 18.3851L10.65 22.0001ZM23.955 22.0001H23.255L19.61 18.3851L20.315 17.6801L23.95 21.2851L23.955 22.0001Z"     fill="white"   ></path>
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_106_235">
+                        <rect x="8" y="8" width="18" height="18" rx="9" fill="white"></rect>
+                      </clipPath>
+                    </defs>
+                  </svg>
+                  <span class="text-sm font-medium text-left text-white">
+                    hello@example.com
+                  </span>
+                </div>
+                <div class="w-[237px] flex justify-start items-center gap-1">
+                  <svg width="33" height="33" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-[33px] h-[33px]" preserveAspectRatio="none">
+                    <rect width="33" height="33" rx="16.5" fill="#E0A763"></rect>
+                    <path
+                      d="M17 16.625C16.5027 16.625 16.0258 16.4275 15.6742 16.0758C15.3225 15.7242 15.125 15.2473 15.125 14.75C15.125 14.2527 15.3225 13.7758 15.6742 13.4242C16.0258 13.0725 16.5027 12.875 17 12.875C17.4973 12.875 17.9742 13.0725 18.3258 13.4242C18.6775 13.7758 18.875 14.2527 18.875 14.75C18.875 14.9962 18.8265 15.24 18.7323 15.4675C18.638 15.695 18.4999 15.9017 18.3258 16.0758C18.1517 16.2499 17.945 16.388 17.7175 16.4823C17.49 16.5765 17.2462 16.625 17 16.625ZM17 9.5C15.6076 9.5 14.2723 10.0531 13.2877 11.0377C12.3031 12.0223 11.75 13.3576 11.75 14.75C11.75 18.6875 17 24.5 17 24.5C17 24.5 22.25 18.6875 22.25 14.75C22.25 13.3576 21.6969 12.0223 20.7123 11.0377C19.7277 10.0531 18.3924 9.5 17 9.5Z"   fill="white" ></path>
+                  </svg>
+                  <span class="text-sm font-medium text-left text-white">
+                    Rue Lorem Ipsum, Loremer
+                  </span>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="w-full mb-10">
+            <svg
+              width=""
+              height="1"
+              viewBox="0 0 13 1"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              class="w-full"
+              preserveAspectRatio="none" >
+              <line x1="13" y1="0.5" y2="0.5" stroke="#aaa" stroke-opacity="0.16"></line>
+            </svg>
+          </div>
+          <!-- Copyright -->
+          <div class="w-full py-2 flex justify-between">
+            <div class="flex justify-center gap-2">
+              <p class="text-xs font-semibold text-left text-white">
+                ©2022 Geneses Car Rent, All rights reserved
+              </p>
+              <p class="text-xs font-semibold text-left text-white">
+                by Fam Digitale
+              </p>
+            </div>
+            <div class="flex justify-center gap-2">
+              <p class="text-xs font-semibold text-right text-white">
+                Privacy &#x26; Policy
+              </p>
+              <p class="w-36 text-xs font-semibold text-right text-white">
+                Terms &#x26; Condition
+              </p>
+            </div>
+          </div>
+          <!-- /copyright -->
+        </div>
+      </div>
+
+      <!--  -->
+    </div>
+
+</body>
+</html>
